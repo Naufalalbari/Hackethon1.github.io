@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: auto;
+    width: auto;
+  }
+  
+  .menu-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    display: flex;
+  }
+  
+  .menu-left li {
+    margin-right: 20px;
+  }
+  
+  .menu-left li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-left li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    margin-left: auto;
+  }
+  
+  .login {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #0066ff;
+  }
+  
+  .login:hover {
+    background-color: #777;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #555;
+  }
+  .heading {
+    background-image: url(image/cover.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    height: 350px;
+    text-align: center;
+    margin: 0;
+    padding: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    
+  }
+  .heading p{
+    padding-top: 60px;
+    margin: 0px;
+  }
+
+  .pencarian {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding: auto ;
+  }
+  .pencarian input {
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border:3px solid #0066ff
+
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .header {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .property-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .property {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 15%;
+  }
+  .property img {
+    width: 100%;
+    height: auto;
+  }
+  .price {
+    color: green;
+    font-weight: bold;
+  }
+  .book-now {
+    color: #0066ff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .navigation {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .view-all {
+    color:#0066ff;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+ 
+
+  .property-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 20px;
+  }
+  .property-card {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.445);
+    transition: 0.3s;
+    width: 20%; /* Adjust width for 2 properties per row */
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 40%;
+    border-radius: 10px;
+  }
+  .property-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .property-image {
+    width: 100%;
+    height: auto;
+  }
+  .property-info {
+    padding: 15px;
+  }
+  .property-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .property-price {
+    color: green;
+  }
+  .book-now-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+
+  footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  section {
+    max-width: 200px;
+  }
+  
+  .logos img {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
+  }
+   
+  
